@@ -20,6 +20,10 @@
         };
         jdk = pkgs.jdk17_headless;
 
+        commonInputs = with pkgs; [
+          pandoc
+        ];
+
         jvmInputs = with pkgs; [
           jdk
           coursier
@@ -33,6 +37,7 @@
         jsInputs = with pkgs; [
           nodejs
           yarn
+          nodePackages_latest.http-server
         ];
         jsHook = ''
           yarn install
@@ -41,7 +46,7 @@
       {
         devShells.default = pkgs.mkShell {
           name = "talks-dev-shell";
-          buildInputs = jvmInputs ++ jsInputs;
+          buildInputs = commonInputs ++ jvmInputs ++ jsInputs;
           shellHook = jvmHook + jsHook;
         };
       }

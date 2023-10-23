@@ -1,49 +1,26 @@
 
+# Losing is Fun! (1 minutes)
+Hi, I'm Dave, and I build a game engine for Scala called Indigo.
+One day, someone turned up on Discord and asked: "Can I use Indigo to build a roguelike?" and I said "What's a roguelike?"
 
-What am I doing?
-
-Aiming for inspirational over academic.
-Show people they can do it too, that they have transferable skills.
-I'm like people leaving thinking - I should give that a try!
-
-The best talks I know start at a level everyone can get, and end slightly beyond the audience giving them something new to want to find out / talk about.
-
-Logos - Logical.
-Tell a good story. Make sure it flows.
-
-Ethos - We're all in this together.
-I'm a pretty ordinary dev, a generalist, my main virtues are stubborness and weaponised ignorance.
-
-Pathos - Funny.
-Doesn't mean jokes, necessarily, it just means delivered with warmth and enthusiasm, I think.
-
----
-
-This is the story of the roguelike
-How did I get into this mess?
-The first problem was just rendering it.
-Doing the tutorial
-Turning it into a demo, the levels suck.
-The work continues, you should do this too.
-
----
-
-# Context: I built a roguelike! (2 minutes)
-What is Indigo
-Here is my roguelike (Play it)
-How did I end up building a roguelike?
-
-## What is a roguelike? (Very accessible, bit niche, good fun.) (8 minutes)
+## What is a roguelike? (4 minutes)
+For the uninitiated:
+Traditionally, a turn based ASCII art game.
+Strapline is "Losing is fun" - think chess.
 - Rogue - the original
 - Dwarf fortress - most famous?
 - Cogmind - Gorgeous.
-- Hoplite - try it! Accessible.
+- Hoplite - try it! Accessible. This is where I really "got it"
 
-Roguelike-Dev follow along.
+Set out on a mission to do the roguelikedev follow along in Scala with Indigo.
+
 - Python tutorial
   - Mutable state
   - Imperative programming
   - prints straight to the terminal
+- Low pressure
+- Everyone share's their work
+- Some people do this every year and just experiment with different ways to build roguelikes.
 - Great fun! You should do it too!
 
 Going to look at two problems that came out of this:
@@ -65,7 +42,8 @@ Dwarf fortress assets
 
 Loading the asset
 Drawing one char (Graphics)
-Drawing many chars (TileMap + CloneTiles)
+Interlude: Performance
+Drawing many chars (CloneTiles)
 Transparency (Custom Shader)
 Colours (Extend the Shader)
 
@@ -74,19 +52,19 @@ The terminal emulator
 - Provides a nice abstraction
 - How it fits into the Indigo life cycle
 
-# Then I did the tutorial (3 minutes)
+# Then I did the tutorial (4 minutes)
 
 I've come this far... might as well do the follow-along?
 
-Took ages
-learnt a lot about game dev
+Took ages, learnt a lot about game dev
+Would highly recommend
 Because it's imperative python not FP scala, it was more like interpretive dance
 Completed, it's in a repo, the code is terrible.
+...but it's fun! There is a game here! 
+...and maybe there's an Indigo demo, with work. So I polished it up, cleaned up the code, and we got this (show current version)
 
-# Fixing the dungeon layout (15 minutes)
+# Fixing the dungeon layout (20 minutes)
 
-Yeah, the code is bad... but there's a demo here!
-Cleaned up the code and gave it nicer graphics.
 Breaks a cardinal sin of game dev (for me) - too much walking!
 Need better levels.
 
@@ -101,11 +79,12 @@ Fixing it
 - Starting with the rooms
 - But now they aren't naturally connected
 - Point cloud
+- Interlude: Abstractions to the rescue.
 - Delaunay Triangulation
 - Now we have relationships, but we need corridors
 - Adjustments and connections
 
-# Wrap up (2 minutes)
+# Wrap up (1 minutes)
 During this experience, I've ended up rather enjoying roguelikes.
 Have a go!
 Maybe this looks a long way away from your day jobs, but it's more accessible that you think!

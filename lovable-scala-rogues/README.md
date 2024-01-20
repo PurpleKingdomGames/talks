@@ -28,7 +28,7 @@ In order for presentation:
 
 ## Let's build a basic Roguelike
 
-![]("../docs/lovable-scala-rogues/images/demo.png")
+![](../docs/lovable-scala-rogues/images/demo.png)
 
 This was the live coded demo, where we start with a fairly blank Indigo project, and see how to wire up a simple ASCII-like terminal and render a player character the user can more around a room.
 
@@ -48,7 +48,7 @@ Run the 'completed' version that displays the moving player character, with:
 
 ## Hoplike
 
-![]("../docs/lovable-scala-rogues/images/lighting_added.png")
+![](../docs/lovable-scala-rogues/images/lighting_added.png)
 
 A very simple roguelike game that is a sort of poor imitation of [Hoplite](http://www.magmafortress.com/p/hoplite.html), but which exhibits the features that the second half of the talk goes into.
 
@@ -60,7 +60,7 @@ To run, navigate to the directory on your command line, and run with:
 
 ## State Machine
 
-![]("../docs/lovable-scala-rogues/images/trafficlights.png")
+![](../docs/lovable-scala-rogues/images/trafficlights.png)
 
 An example of how you can manage a simple state-machine-like construct in Indigo's version of the Elm architecture.
 
@@ -72,7 +72,7 @@ To run, navigate to the directory on your command line, and run with:
 
 ## Basic shader
 
-![]("../docs/lovable-scala-rogues/images/basic-shader.png")
+![](../docs/lovable-scala-rogues/images/basic-shader.png)
 
 
 
@@ -84,7 +84,7 @@ To run, navigate to the directory on your command line, and run with:
 
 ## Rainbow Shader
 
-![]("../docs/lovable-scala-rogues/images/rainbow.png")
+![](../docs/lovable-scala-rogues/images/rainbow.png)
 
 To run, navigate to the directory on your command line, and run with:
 
@@ -94,7 +94,7 @@ To run, navigate to the directory on your command line, and run with:
 
 ## Rainbow Scene Shader
 
-![]("../docs/lovable-scala-rogues/images/pretty2.png")
+![](../docs/lovable-scala-rogues/images/pretty2.png)
 
 To run, navigate to the directory on your command line, and run with:
 

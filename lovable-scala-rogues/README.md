@@ -14,7 +14,7 @@ In this talk we will bootstrap you into your next all-consuming hobby. We'll nea
 
 ## Slides
 
-The slides can be viewed [here]("https://purplekingdomgames.github.io/talks/lovable-scala-rogues/").
+The slides can be viewed [here](https://purplekingdomgames.github.io/talks/lovable-scala-rogues/).
 
 ## Demos
 

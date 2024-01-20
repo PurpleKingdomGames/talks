@@ -20,9 +20,7 @@
         };
         jdk = pkgs.jdk17_headless;
 
-        commonInputs = with pkgs; [
-          pandoc
-        ];
+        commonInputs = with pkgs; [];
 
         jvmInputs = with pkgs; [
           jdk
@@ -39,9 +37,7 @@
           yarn
           nodePackages_latest.http-server
         ];
-        jsHook = ''
-          yarn install
-        '';
+        jsHook = '''';
       in
       {
         devShells.default = pkgs.mkShell {

@@ -1,6 +1,13 @@
 # Loveable Scala Rogues - LSUG - 16th January 2024
 
-First presented Internally at 47 Degrees on 14 December 2023, then on the 16th January 2024 at the London Scala User Group (LSUG), hosted by The Trade Desk.
+First presented Internally at Xebia Functional / 47 Degrees on 14 December 2023, then on the 16th January 2024 at the London Scala User Group (LSUG), hosted by The Trade Desk, then again at Scala in the City, hosted by Visa.
+
+Talks links:
+
+(sound is better at Scala in the City, slides more viewable at LSUG... choose your poison.)
+
+- [LSUG talk](https://youtu.be/UZWdyIQbtvs?si=-Bo5LlRuHxtOvqPG)
+- [Scala in the City talk](https://youtu.be/O7V-t9w0oXw?si=YVRu4Mdpbw7UczJU)
 
 ## Abstract
 
